@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<body>
+<div class="container">
+      <div class="card">
+        <div class="card-content red-text">
+          <table>
+            <tr>
+              <td><p>TFL</p></td>
+              <td><% if (locals.user) { %>
+
+                <p align="right">Hello, <%= locals.user.username %></p>
+
+                <% } %></td>
+            </tr>
+          </table>
+        </div>
+      </div>
+    </div>
+</body>
+</html>
